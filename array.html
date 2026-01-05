@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Array</h1>
+    <p id="id1"> </p>
+    <p id="id2"> </p>
+    <p id="id3"> </p>
+    <p id="id4"> </p>
+    <p id="id5"> </p>
+    <p id="id6"> </p
+    <p id="id7"> </p>
+    <script>
+        var emp=['ram', 'shyam', 'gita', 'sita', 'hari', 'savi', 'gopal']
+        document.getElementById("id1").innerHTML="Employ Names: "+ emp;
+        document.getElementById("id2").innerHTML="Employ Names: "+ emp.join(" * ");
+        document.getElementById("id3").innerHTML="Employ Names: "+ emp.sort();
+        emp.push('shaheer');
+        document.getElementById("id4").innerHTML="Employ Names: "+ emp.sort();  
+        emp.pop();
+        document.getElementById("id5").innerHTML = "Employ Names: " + emp.sort();
+        document.getElementById("id6").innerHTML = "Employ Names: " + emp.reverse();
+        
+    </script> 
+</body>
+</html>
